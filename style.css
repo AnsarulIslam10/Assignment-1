@@ -35,6 +35,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     opacity: 0.8;
+    background: white;
 }
 
 /* Banner Styles */
@@ -58,11 +59,13 @@ body {
     height: 582px;
     margin: 0 auto;
 }
-.banner-img{
+
+.banner-img {
     margin-top: 28px;
 }
+
 .banner-text h2 {
-    font-size: 39px;
+    font-size: 48px;
     font-weight: 800;
     color: rgb(13, 19, 33);
     line-height: 68px;
@@ -78,7 +81,8 @@ body {
     opacity: 0.7;
     margin-bottom: 32px;
 }
-.btn{
+
+.btn {
     font-size: 20px;
     font-family: "Azeret Mono", monospace;
     font-weight: 600;
@@ -86,4 +90,93 @@ body {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+}
+
+/* Web Dev section styling */
+.web-dev {
+    width: 1140px;
+    height: 1395px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    margin-bottom: 88px;
+}
+
+.web-dev-text {
+    text-align: center;
+}
+
+.web-dev-text h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.web-dev-text p {
+    width: 946px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.web-dev-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card {
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+}
+
+#card2 {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    justify-content: left;
+    gap: 48px;
+}
+
+.card-text {
+    width: 477px;
+}
+
+.card-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.card-text a {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
