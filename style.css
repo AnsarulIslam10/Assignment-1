@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
 }
 
 .description {
@@ -27,11 +27,13 @@ body {
     line-height: 26px;
     opacity: 0.7;
 }
+/* Shared Styles End */
 
-/* end */
+/* Nav Styling */
 .nav-content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 47px;
     margin-bottom: 47px;
 }
@@ -46,7 +48,7 @@ body {
     text-align: left;
 }
 
-.nav-content button {
+.nav-content button{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     padding: 17px 24px 17px 24px;
@@ -55,9 +57,10 @@ body {
     font-weight: 600;
     opacity: 0.8;
     background: white;
+    cursor: pointer;
 }
 
-/* Banner Styles */
+/* Banner Styling */
 .banner {
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
@@ -96,7 +99,7 @@ body {
     margin-bottom: 32px;
 }
 
-.btn {
+.btn a{
     font-size: 20px;
     font-family: "Azeret Mono", monospace;
     font-weight: 600;
@@ -104,9 +107,10 @@ body {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-/* Web Dev section styling */
+/* Web Dev Section Styling */
 .web-dev {
     width: 1140px;
     height: 1395px;
@@ -115,6 +119,7 @@ body {
     margin-top: 74px;
     border-radius: 16px;
     margin-bottom: 88px;
+    padding: 80px 97px 80px 97px;
 }
 
 .web-dev-text {
@@ -270,7 +275,7 @@ body {
     font-weight: 700;
 }
 
-/* next target */
+/* Next Target Section Styling */
 .next-target-text {
     text-align: center;
     margin-top: 111px;
@@ -317,7 +322,7 @@ body {
     font-weight: 700;
 }
 
-/* support section styling */
+/* Support Section Styling */
 .support {
     width: 1140px;
     height: 314px;
