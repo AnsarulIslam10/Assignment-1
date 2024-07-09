@@ -210,9 +210,9 @@ body {
 }
 
 /* My Current Target Section Styling */
-.current-target {
+.target {
     width: 1140px;
-    height: 463px;
+    height: 1445px;
     margin: 0 auto;
     margin-top: 181px;
 }
@@ -230,7 +230,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 24px; */
 }
 
 .target-card {
@@ -239,15 +238,19 @@ body {
     padding: 40px;
     border-radius: 16px;
 }
-#tc-1{
+
+#tc-1 {
     background: rgba(255, 76, 30, 0.05);
 }
-#tc-2{
+
+#tc-2 {
     background: rgba(0, 76, 232, 0.05);
 }
-#tc-3{
+
+#tc-3 {
     background: rgba(255, 223, 0, 0.05);
 }
+
 .target-card h3 {
     color: rgb(13, 19, 33);
     font-size: 24px;
@@ -262,6 +265,53 @@ body {
 }
 
 .target-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* next target */
+.next-target-text {
+    text-align: center;
+    margin-top: 111px;
+    margin-bottom: 48px;
+}
+
+.next-target-text h2 {
+    margin-bottom: 24px;
+}
+
+.next-target-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.next-card {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 220px;
+    padding: 40px;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-text h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.next-text p {
+    margin-bottom: 24px;
+}
+
+.next-text a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
